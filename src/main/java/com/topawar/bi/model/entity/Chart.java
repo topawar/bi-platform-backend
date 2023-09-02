@@ -7,22 +7,30 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * @TableName user
+ * @TableName chart
  */
-@TableName(value ="user")
+@TableName(value ="chart")
 @Data
-public class User implements Serializable {
+public class Chart implements Serializable {
     private Long id;
 
-    private String userAccount;
+    private String goal;
 
-    private String userPassword;
+    private String name;
 
-    private String userName;
+    private String chartData;
 
-    private String userAvatar;
+    private String chartType;
 
-    private String userRole;
+    private String genChart;
+
+    private String genResult;
+
+    private String status;
+
+    private String execMessage;
+
+    private Long userId;
 
     private Date createTime;
 
