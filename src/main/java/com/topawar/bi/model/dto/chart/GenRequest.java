@@ -5,6 +5,7 @@ import lombok.Data;
 @Data
 public class GenRequest {
     private String target;
+    private String name;
 
     private String chartType;
 }
